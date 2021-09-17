@@ -6,8 +6,8 @@ See [demo](https://benjaminhonorio.github.io/the-galactic-times/).
 
 TODO:
 
-- [ ] Replace gif about social distancing
-- [ ] Refactor layout and styles
+- [x] Replace gif about social distancing
+- [x] Refactor layout and styles
 - [ ] Make it responsive
 - [ ] Make the page for 'Two Memes Edition'
 - [ ] Make the page for 'Feedback List'
