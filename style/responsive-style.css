@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital@0;1&display=swap');
+
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    font-weight: normal;
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("../img/istockphoto-501655522-170667a.jpg");
+    color: #fff;
+    font-family: Tinos, serif;
+    width: 100vw;
+    margin: 0;
+    padding: .5em;
+    font-size: .95rem;
+}
+
+.site-logo {
+    font-size: 2rem;
+    text-align: center;
+    margin: .5em 0;
+}
+
+img {
+    width: 100%;
+}
+
+.site-header {
+    display: flex;
+    font-size: .65rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.site-header>* {
+    text-transform: uppercase;
+}
+
+.site-header .issue-info {
+    flex:1 0 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: .85em 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.site-header .issue-info>* {
+    flex:1;
+}
+
+.site-header .site-nav {
+    flex:1 0 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.site-nav {
+    padding: .5em 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+p {
+    text-align: justify;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
+
+figcaption {
+    font-size: .85rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.section-1 h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: .5em 0 0;
+}
+
+.main-article-body {
+    display: flex;
+    margin: .75em 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-article-body .main-article-text {
+    order: 2;
+    columns:1;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: .95rem;
+    margin-top: 0;
+}
+
+.main-article-body figure {
+    order: 1;
+    margin: .5em 0;
+}
+
+.main-article-body button {
+    order: 3;
+    width: 30%;
+    background-color: #fff;
+    border: none;
+    border-radius: .5em;
+    padding: .5em;
+}
+
+#more {
+    display: none;
+}
